@@ -120,8 +120,8 @@ const FixedButtons = () => {
 
       {/* Contact Form Modal */}
       {showContactForm && (
-        <div className="fixed  inset-0 bg-black/50 flex justify-center items-center z-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-h-screen overflow-y-auto">
+        <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-h-screen overflow-y-scroll">
             <div className="flex justify-between items-center text-center">
 
             <h2 className="text-xl font-bold mb-4">Contact Us</h2>
@@ -137,7 +137,7 @@ const FixedButtons = () => {
             <form
               ref={formRef}
               onSubmit={sendEmail}
-              className="max-w-4xl mx-auto pb-20 font-mono"
+              className="mx-auto pb-20 font-mono"
             >
               <div className="grid sm:grid-cols-2 gap-6 py-10">
                 {/* First Name */}

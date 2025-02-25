@@ -407,12 +407,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-black mb-8  border-b border-b-yellow-700 w-fit">
+        <div className="my-20 flex flex-col justify-center items-center">
+        <h2 className="text-2xl border-b w-fit  border-b-yellow-700 font-bold text-black mb-8  text-center">
           Image Gallery
         </h2>
         <Swipper />
-      </section>
+        </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 
 const TermsAndConditions = () => {
   return (
-    <section className='bg-black'>
+    <section className='bg-customBg'>
         <Navbar />
       <Head>
         <title>Terms and Conditions</title>
