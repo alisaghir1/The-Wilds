@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   FaSwimmer,
   FaBiking,
@@ -16,7 +17,14 @@ import {
 } from "react-icons/fa";
 import { MdPool } from "react-icons/md";
 import { IoMdFitness } from "react-icons/io";
-import { FaPlaneDeparture, FaLandmark, FaUniversity, FaMapMarkedAlt } from "react-icons/fa";
+import {
+  FaPlaneDeparture,
+  FaLandmark,
+  FaUniversity,
+  FaMapMarkedAlt,
+} from "react-icons/fa";
+
+
 
 const amenities = [
   {
@@ -98,6 +106,33 @@ const amenities = [
     title: "Swimming Pool",
     desc: "The best place to head when you want to relax and rejuvenate.",
     icon: <MdPool className="text-yellow-500 text-3xl" />,
+  },
+];
+
+const floorPlans = [
+  {
+    floorPlan: "3 Bedroom",
+    category: "Cassia Villa",
+    unitType: "3 Bedrooms + Study + Maid",
+    floorDetails: "Type 01 to Type 02",
+    sizes: "276.00 Sq Mtr",
+    type: "Villa",
+  },
+  {
+    floorPlan: "4 Bedroom",
+    category: "Cassia Villa",
+    unitType: "4 Bedrooms + Maid",
+    floorDetails: "Type 01 to Type 02",
+    sizes: "313.00 Sq Mtr",
+    type: "Villa",
+  },
+  {
+    floorPlan: "5 Bedroom",
+    category: "Cassia Villa to Ravenna Residences",
+    unitType: "5 Bedrooms + Pool + Maid + Study",
+    floorDetails: "Type 01 to Type 02",
+    sizes: "413.00 Sq Mtr to 620.00 Sq Mtr",
+    type: "Villa",
   },
 ];
 
@@ -276,50 +311,97 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-      <h2 className="text-2xl font-bold text-gray-900 mb-8">Location Map</h2>
-      
-      <div className="flex flex-col md:flex-row items-center gap-8">
-        {/* Left Side - Image */}
-        <div className="w-full ">
-          <img src="/location.jpg" alt="Location Map" className="rounded-lg w-full" />
+        <h2 className="text-2xl font-bold text-gray-900 mb-8">Location Map</h2>
+
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          {/* Left Side - Image */}
+          <div className="w-full ">
+            <Image
+              src="/location.jpg"
+              alt="Location Map"
+              className="rounded-lg w-full"
+              width={500}
+              height={500}
+            />
+          </div>
+
+          {/* Right Side - Location Items */}
+          <div className="w-full md:w-1/2 flex flex-col gap-6">
+            <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
+              <FaPlaneDeparture className="text-yellow-500 text-3xl" />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Dubai International Airport
+                </h3>
+                <p className="text-gray-700 mt-1">25 Minutes</p>
+              </div>
+            </div>
+
+            <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
+              <FaLandmark className="text-yellow-500 text-3xl" />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Falconcity of Wonders
+                </h3>
+                <p className="text-gray-700 mt-1">15 Minutes</p>
+              </div>
+            </div>
+
+            <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
+              <FaMapMarkedAlt className="text-yellow-500 text-3xl" />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  IMG World of Adventure
+                </h3>
+                <p className="text-gray-700 mt-1">15 Minutes</p>
+              </div>
+            </div>
+
+            <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
+              <FaUniversity className="text-yellow-500 text-3xl" />
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Zayed University
+                </h3>
+                <p className="text-gray-700 mt-1">15 Minutes</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        {/* Right Side - Location Items */}
-        <div className="w-full md:w-1/2 flex flex-col gap-6">
-          <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-            <FaPlaneDeparture className="text-yellow-500 text-3xl" />
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">Dubai International Airport</h3>
-              <p className="text-gray-700 mt-1">25 Minutes</p>
-            </div>
-          </div>
+      <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
+      <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">FLOOR PLAN</h2>
 
-          <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-            <FaLandmark className="text-yellow-500 text-3xl" />
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">Falconcity of Wonders</h3>
-              <p className="text-gray-700 mt-1">15 Minutes</p>
-            </div>
-          </div>
-
-          <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-            <FaMapMarkedAlt className="text-yellow-500 text-3xl" />
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">IMG World of Adventure</h3>
-              <p className="text-gray-700 mt-1">15 Minutes</p>
-            </div>
-          </div>
-
-          <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-            <FaUniversity className="text-yellow-500 text-3xl" />
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900">Zayed University</h3>
-              <p className="text-gray-700 mt-1">15 Minutes</p>
-            </div>
-          </div>
-        </div>
+      <div className="overflow-x-auto">
+        <table className="w-full border border-gray-300 min-w-[600px]">
+          <thead>
+            <tr className="bg-gray-200 text-sm md:text-base">
+              <th className="border px-3 md:px-4 py-2">Floor Plan</th>
+              <th className="border px-3 md:px-4 py-2">Category</th>
+              <th className="border px-3 md:px-4 py-2">Unit Type</th>
+              <th className="border px-3 md:px-4 py-2">Floor Details</th>
+              <th className="border px-3 md:px-4 py-2">Sizes</th>
+              <th className="border px-3 md:px-4 py-2">Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            {floorPlans.map((plan, index) => (
+              <tr key={index} className="border text-xs md:text-sm">
+                <td className="border px-3 md:px-4 py-2 font-semibold">{plan.floorPlan}</td>
+                <td className="border px-3 md:px-4 py-2">{plan.category}</td>
+                <td className="border px-3 md:px-4 py-2">{plan.unitType}</td>
+                <td className="border px-3 md:px-4 py-2">{plan.floorDetails}</td>
+                <td className="border px-3 md:px-4 py-2">{plan.sizes}</td>
+                <td className="border px-3 md:px-4 py-2">{plan.type}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </section>
+
+      
     </div>
   );
 }
