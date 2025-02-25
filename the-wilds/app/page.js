@@ -155,7 +155,7 @@ export default function Home() {
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
         <div className="flex justify-between gap-2 items-center">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">
+            <h2 className="text-2xl font-bold text-black">
               The Wilds by Aldar
             </h2>
             <p className="text-gray-600 text-md mt-2">
@@ -246,7 +246,7 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-gray-900">Overview</h2>
+        <h2 className="text-2xl font-bold text-black border-b border-b-yellow-700 w-fit">Overview</h2>
 
         <p className="text-gray-700 text-md mt-4 leading-relaxed">
           The Wilds by Aldar Properties introduces an exclusive villa-only
@@ -287,7 +287,7 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-black border-b border-b-yellow-700 w-fit">
           Feature & Amenities
         </h2>
 
@@ -300,7 +300,7 @@ export default function Home() {
             >
               {item.icon}
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-black">
                   {item.title}
                 </h3>
                 <p className="text-gray-700 mt-2">{item.desc}</p>
@@ -311,7 +311,7 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Location Map</h2>
+        <h2 className="text-2xl font-bold text-black mb-8 border-b border-b-yellow-700 w-fit">Location Map</h2>
 
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Left Side - Image */}
@@ -330,7 +330,7 @@ export default function Home() {
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
               <FaPlaneDeparture className="text-yellow-700 text-3xl" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-black">
                   Dubai International Airport
                 </h3>
                 <p className="text-gray-700 mt-1">25 Minutes</p>
@@ -340,7 +340,7 @@ export default function Home() {
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
               <FaLandmark className="text-yellow-700 text-3xl" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-black">
                   Falconcity of Wonders
                 </h3>
                 <p className="text-gray-700 mt-1">15 Minutes</p>
@@ -350,7 +350,7 @@ export default function Home() {
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
               <FaMapMarkedAlt className="text-yellow-700 text-3xl" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-black">
                   IMG World of Adventure
                 </h3>
                 <p className="text-gray-700 mt-1">15 Minutes</p>
@@ -360,7 +360,7 @@ export default function Home() {
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
               <FaUniversity className="text-yellow-700 text-3xl" />
               <div>
-                <h3 className="text-lg font-semibold text-gray-900">
+                <h3 className="text-lg font-semibold text-black">
                   Zayed University
                 </h3>
                 <p className="text-gray-700 mt-1">15 Minutes</p>
@@ -371,7 +371,7 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">
+        <h2 className="text-2xl font-bold text-black mb-8 border-b border-b-yellow-700 w-fit">
           FLOOR PLAN
         </h2>
 
@@ -408,7 +408,7 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-2xl font-bold text-black mb-8  border-b border-b-yellow-700 w-fit">
           Image Gallery
         </h2>
         <Swipper />

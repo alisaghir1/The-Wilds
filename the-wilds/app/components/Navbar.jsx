@@ -74,15 +74,6 @@ export default function Navbar() {
             </Link>
             <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
-          <li className="relative group">
-            <Link
-              href="/gallery"
-              className="hover:text-white transition-all duration-200 ease-in-out"
-            >
-              GALLERY
-            </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
-          </li>
         </ul>
       </div>
 

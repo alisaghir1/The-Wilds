@@ -4,9 +4,9 @@ const page = () => {
   return (
     <div className='pt-40 bg-customBg pb-20'>
 
-<section className="container mx-auto mt-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
+<section className="container mx-auto mt-16 border border-white xl:px-20 pt-5 pb-10 px-5 rounded-lg">
       {/* Title */}
-      <h2 className="text-2xl font-bold text-yellow-700 mb-8 text-center">Features & Amenities</h2>
+      <h2 className="text-2xl font-bold text-yellow-700 my-8 border-b border-b-white w-fit">Features & Amenities</h2>
 
       {/* Starting Price */}
       <div className="flex flex-col md:flex-row justify-between items-center border border-white p-4 rounded-lg mb-6">

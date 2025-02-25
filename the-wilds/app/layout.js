@@ -16,11 +16,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dubai Luxury Properties | Buy, Rent, and Invest in Real Estate",
+  title: "The Wilds by Aldar | Luxury Living Managed by Hi5 Properties",
   description:
-    "Discover your perfect home with Hi5 Properties, your trusted real estate partner. Explore a wide range of luxury properties, apartments, and homes designed to meet your lifestyle. Whether buying, renting, or selling, we make your real estate journey seamless and stress-free.",
+    "Experience luxury living at The Wilds, an exclusive project by Aldar, managed by Hi5 Properties. Explore premium residences designed for comfort, elegance, and modern lifestyles. Whether you're looking to buy, rent, or invest, we ensure a seamless real estate experience.",
   icons: {
-    icon: "/logo.svg", // Replace with the path to your logo image in the public folder
+    icon: "/logo.svg",
+  },
+  openGraph: {
+    title: "The Wilds by Aldar | Luxury Living Managed by Hi5 Properties",
+    description:
+      "Discover The Wilds, a premium Aldar project managed by Hi5 Properties. Luxury homes tailored to modern lifestyles.",
+    url: "https://yourwebsite.com/the-wilds",
+    type: "website",
+    images: [
+      {
+        url: "/hero.jpg", // Add an actual image for better previews
+        width: 1200,
+        height: 630,
+        alt: "The Wilds by Aldar - Luxury Living",
+      },
+    ],
   },
 };
 
