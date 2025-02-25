@@ -27,7 +27,7 @@ export default function NavMobile() {
         {/* Email with mailto link */}
         <Link
           href="mailto:hello@hi5properties.com"
-          className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-black"
+          className="text-sm font-medium transition-colors duration-300 ease-in-out "
         >
           hello@hi5properties.com
         </Link>
@@ -35,7 +35,7 @@ export default function NavMobile() {
         {/* Phone number with tel link */}
         <Link
           href="tel:+971521211520"
-          className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-black"
+          className="text-sm font-medium transition-colors duration-300 ease-in-out "
         >
           +971 54 562 0057
         </Link>
@@ -67,71 +67,71 @@ export default function NavMobile() {
             <Link
               onClick={handleClick}
               href="/"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               OVERVIEW
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
               onClick={handleClick}
               href="/amenities"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               AMENITIES
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
               onClick={handleClick}
               href="/payment-plan"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               PAYMENT PLAN
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
               onClick={handleClick}
               href="/floor-plans"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               FLOOR PLANS
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
               onClick={handleClick}
               href="/location"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               LOCATION
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
               onClick={handleClick}
               href="/master-plan"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               MASTER PLAN
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
           <li className="relative group">
             <Link
               onClick={handleClick}
               href="/gallery"
-              className="hover:text-black transition-colors duration-300 ease-in-out"
+              className=" transition-colors duration-300 ease-in-out"
             >
               GALLERY
             </Link>
-            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </li>
         </ul>
 
