@@ -24,8 +24,6 @@ import {
   FaMapMarkedAlt,
 } from "react-icons/fa";
 
-
-
 const amenities = [
   {
     title: "Beach Access",
@@ -153,7 +151,7 @@ export default function Home() {
         </div>
       </div>
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between gap-2 items-center">
           <div>
             <h2 className="text-2xl font-bold text-gray-900">
               The Wilds by Aldar
@@ -172,7 +170,7 @@ export default function Home() {
           </div>
           <div className="p-4 border border-gray-300 rounded-lg text-center">
             <p className="text-amber-800 font-medium">Starting From</p>
-            <p className="text-black font-bold text-xl">AED 5.1 M</p>
+            <p className="text-black font-bold text-xl">AED 5.1M</p>
           </div>
         </div>
         {/* Grid Layout */}
@@ -371,37 +369,41 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-      <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">FLOOR PLAN</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+          FLOOR PLAN
+        </h2>
 
-      <div className="overflow-x-auto">
-        <table className="w-full border border-gray-300 min-w-[600px]">
-          <thead>
-            <tr className="bg-gray-200 text-sm md:text-base">
-              <th className="border px-3 md:px-4 py-2">Floor Plan</th>
-              <th className="border px-3 md:px-4 py-2">Category</th>
-              <th className="border px-3 md:px-4 py-2">Unit Type</th>
-              <th className="border px-3 md:px-4 py-2">Floor Details</th>
-              <th className="border px-3 md:px-4 py-2">Sizes</th>
-              <th className="border px-3 md:px-4 py-2">Type</th>
-            </tr>
-          </thead>
-          <tbody>
-            {floorPlans.map((plan, index) => (
-              <tr key={index} className="border text-xs md:text-sm">
-                <td className="border px-3 md:px-4 py-2 font-semibold">{plan.floorPlan}</td>
-                <td className="border px-3 md:px-4 py-2">{plan.category}</td>
-                <td className="border px-3 md:px-4 py-2">{plan.unitType}</td>
-                <td className="border px-3 md:px-4 py-2">{plan.floorDetails}</td>
-                <td className="border px-3 md:px-4 py-2">{plan.sizes}</td>
-                <td className="border px-3 md:px-4 py-2">{plan.type}</td>
+        <div className="overflow-x-auto">
+          <table className="w-full border border-gray-300 min-w-[600px]">
+            <thead>
+              <tr className="bg-gray-200 text-sm md:text-base">
+                <th className="border px-3 md:px-4 py-2">Floor Plan</th>
+                <th className="border px-3 md:px-4 py-2">Category</th>
+                <th className="border px-3 md:px-4 py-2">Unit Type</th>
+                <th className="border px-3 md:px-4 py-2">Floor Details</th>
+                <th className="border px-3 md:px-4 py-2">Sizes</th>
+                <th className="border px-3 md:px-4 py-2">Type</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-      
+            </thead>
+            <tbody>
+              {floorPlans.map((plan, index) => (
+                <tr key={index} className="border text-xs md:text-sm">
+                  <td className="border px-3 md:px-4 py-2 font-semibold">
+                    {plan.floorPlan}
+                  </td>
+                  <td className="border px-3 md:px-4 py-2">{plan.category}</td>
+                  <td className="border px-3 md:px-4 py-2">{plan.unitType}</td>
+                  <td className="border px-3 md:px-4 py-2">
+                    {plan.floorDetails}
+                  </td>
+                  <td className="border px-3 md:px-4 py-2">{plan.sizes}</td>
+                  <td className="border px-3 md:px-4 py-2">{plan.type}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   );
 }

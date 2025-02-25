@@ -23,11 +23,11 @@ export default function NavMobile() {
   return (
     <div className="xl:hidden">
       {/* Logo always visible */}
-      <div className="absolute bg-yellow-500 text-black flex justify-between items-center px-5 py-2 top-0 left-0 right-0 z-50">
+      <div className="absolute bg-yellow-500 text-white flex justify-between items-center px-5 py-2 top-0 left-0 right-0 z-50">
         {/* Email with mailto link */}
         <Link
           href="mailto:hello@capitalassociation.com"
-          className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-white"
+          className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-black"
         >
           hello@capitalassociation.com
         </Link>
@@ -35,7 +35,7 @@ export default function NavMobile() {
         {/* Phone number with tel link */}
         <Link
           href="tel:+971521211520"
-          className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-white"
+          className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-black"
         >
           +971 52 121 1520
         </Link>
@@ -57,12 +57,12 @@ export default function NavMobile() {
 
       {/* Mobile Navbar */}
       <div
-        className={`fixed inset-0 bg-white z-40 p-6 shadow-lg flex flex-col items-center transform transition-transform duration-300 ${
+        className={`fixed inset-0 bg-customBg z-40 p-6 shadow-lg flex flex-col items-center transform transition-transform duration-300 ${
           isNavbarOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         {/* Navigation Links */}
-        <ul className="flex flex-col gap-8 text-lg text-black font-medium mt-32">
+        <ul className="flex flex-col gap-8 text-lg text-white font-medium mt-32">
           <li className="relative group">
             <Link
               onClick={handleClick}
@@ -136,7 +136,7 @@ export default function NavMobile() {
         </ul>
 
         {/* Social Media Links */}
-        <div className="flex gap-4 mt-8 text-black">
+        <div className="flex gap-4 mt-8 text-white">
           <a
             href="https://www.instagram.com/capital.associated/"
             target="_blank"

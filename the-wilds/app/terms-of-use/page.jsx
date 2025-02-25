@@ -14,7 +14,7 @@ const TermsAndConditions = () => {
       </Head>
       <div className="container mx-auto p-4 md:p-8">
         <section className="terms-content">
-          <h1 className="mt-40 text-3xl md:text-4xl font-bold text-center text-yellow-500 mb-6 custom-font text-customText@">
+          <h1 className="mt-40 text-3xl md:text-4xl font-bold text-center text-yellow-500 mb-6 custom-font text-yellow-500@">
             Terms and Conditions
           </h1>
 
