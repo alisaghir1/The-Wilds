@@ -6,12 +6,12 @@ const page = () => {
 
 <section className="container mx-auto mt-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
       {/* Title */}
-      <h2 className="text-2xl font-bold text-yellow-500 mb-8 text-center">Features & Amenities</h2>
+      <h2 className="text-2xl font-bold text-yellow-700 mb-8 text-center">Features & Amenities</h2>
 
       {/* Starting Price */}
       <div className="flex flex-col md:flex-row justify-between items-center border border-white p-4 rounded-lg mb-6">
         <span className="text-lg font-semibold text-white">Starting From</span>
-        <span className="text-2xl font-bold text-yellow-500">AED 5.1M</span>
+        <span className="text-2xl font-bold text-yellow-700">AED 5.1M</span>
       </div>
 
       {/* Description */}
@@ -30,7 +30,7 @@ const page = () => {
       </p>
 
       {/* Key Facilities */}
-      <h3 className="text-lg font-bold text-yellow-500 mb-4">Key Facilities:</h3>
+      <h3 className="text-lg font-bold text-yellow-700 mb-4">Key Facilities:</h3>
       <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 text-white text-sm md:text-base">
         <li>Cycling Trails</li>
         <li>Rock Climbing Walls</li>

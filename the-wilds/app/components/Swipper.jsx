@@ -10,12 +10,12 @@ import "swiper/css/pagination";
 
 import "./swiper.css";
 import Image from "next/image";
-import cr1 from "../..public/cr1.jpg";
-import cr2 from "../..public/cr2.jpg";
-import cr3 from "../..public/cr3.jpg";
-import cr4 from "../..public/cr4.jpg";
-import cr5 from "../..public/cr5.jpg";
-import cr6 from "../..public/cr6.jpg";
+import cr1 from "../../public/cr1.jpg";
+import cr2 from "../../public/cr2.jpg";
+import cr3 from "../../public/cr3.jpg";
+import cr4 from "../../public/cr4.jpg";
+import cr5 from "../../public/cr5.jpg";
+import cr6 from "../../public/cr6.jpg";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper/modules";

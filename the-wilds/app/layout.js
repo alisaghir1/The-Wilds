@@ -3,6 +3,7 @@ import "./globals.css";
 import NavMobile from "./components/NavMobile";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FixedButtons from "./components/FixedButtons";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <NavMobile />
         {children}
+        <FixedButtons />
         <Footer />
       </body>
     </html>

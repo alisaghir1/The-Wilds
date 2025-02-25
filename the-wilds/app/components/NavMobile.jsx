@@ -23,13 +23,13 @@ export default function NavMobile() {
   return (
     <div className="xl:hidden">
       {/* Logo always visible */}
-      <div className="absolute bg-yellow-500 text-white flex justify-between items-center px-5 py-2 top-0 left-0 right-0 z-50">
+      <div className="absolute bg-yellow-700 text-white flex justify-between items-center px-5 py-2 top-0 left-0 right-0 z-50">
         {/* Email with mailto link */}
         <Link
-          href="mailto:hello@capitalassociation.com"
+          href="mailto:hello@hi5properties.com"
           className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-black"
         >
-          hello@capitalassociation.com
+          hello@hi5properties.com
         </Link>
 
         {/* Phone number with tel link */}
@@ -37,7 +37,7 @@ export default function NavMobile() {
           href="tel:+971521211520"
           className="text-sm font-medium transition-colors duration-300 ease-in-out hover:text-black"
         >
-          +971 52 121 1520
+          +971 54 562 0057
         </Link>
       </div>
       <Link href={'/'}>
@@ -135,33 +135,6 @@ export default function NavMobile() {
           </li>
         </ul>
 
-        {/* Social Media Links */}
-        <div className="flex gap-4 mt-8 text-white">
-          <a
-            href="https://www.instagram.com/capital.associated/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl hover:text-black"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl hover:text-black"
-          >
-            <FaFacebook />
-          </a>
-          <a
-            href="https://x.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl hover:text-black"
-          >
-            <RiTwitterXLine />
-          </a>
-        </div>
       </div>
     </div>
   );

@@ -87,13 +87,13 @@ export default function Navbar() {
       </div>
 
       {/* Right Section */}
-      <div className="flex items-center gap-6 text-yellow-500">
+      <div className="flex items-center gap-6 text-yellow-700">
         {/* Email */}
         <Link
-          href="mailto:hello@capitalassociation.com"
+          href="mailto:hello@hi5properties.com"
           className="relative text-sm font-medium hover:text-white transition-all duration-200 ease-in-out group"
         >
-          hello@capitalassociation.com
+          hello@hi5properties.com
           <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-white transition-all duration-300 ease-in-out group-hover:w-full"></span>
         </Link>
         {/* Phone Number */}
@@ -101,7 +101,7 @@ export default function Navbar() {
           href="tel:+971521211520"
           className="relative text-sm font-medium hover:text-white transition-all duration-200 ease-in-out group"
         >
-          +971 52 121 1520
+          +971 54 562 0057
         </Link>
 
       </div>

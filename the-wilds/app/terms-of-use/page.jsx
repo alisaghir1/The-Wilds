@@ -14,7 +14,7 @@ const TermsAndConditions = () => {
       </Head>
       <div className="container mx-auto p-4 md:p-8">
         <section className="terms-content">
-          <h1 className="mt-40 text-3xl md:text-4xl font-bold text-center text-yellow-500 mb-6 custom-font text-yellow-500@">
+          <h1 className="mt-40 text-3xl md:text-4xl font-bold text-center text-yellow-700 mb-6 custom-font text-yellow-700@">
             Terms and Conditions
           </h1>
 
@@ -23,21 +23,21 @@ const TermsAndConditions = () => {
           </p>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Payments Disclaimer</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Payments Disclaimer</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               As per the instructions of the Dubai Land Department, individual Real Estate Agents are UNAUTHORIZED to receive any cash or funds transfer to their personal bank accounts. Cash payments must be handed over to the real estate Company Finance Team only or Sales Progression Officers at the real estate agency office. Cash payments can also be handed over at the official Trustee’s offices in the UAE in the presence of the real estate agency’s official Sales Progression Officer or Transferred to the official real estate company bank account. fäm Real Estate Broker LLC confirms the subject payments only through electronically generated receipts from our official email: hello@hi5properties.com For any further assistance or clarification, kindly contact: info@hi5properties.com
             </p>
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">General Terms</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">General Terms</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               By accessing the Site and obtaining the facilities, products or services offered through the Site, you agree that all applicable law of Dubai and the United Arab Emirates (UAE) shall govern such access and the provision of such facilities, products and services and you agree to submit to the exclusive jurisdiction of the courts of the Emirate of Dubai, UAE.
             </p>
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Legal and Liability</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Legal and Liability</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               To the maximum extent permitted by applicable law and regulatory requirements, High Five Properties specifically disclaims any liability for errors, inaccuracies or omissions on this website and for any loss (whether direct or indirect) or damage resulting from its use, whether caused by negligence or otherwise. Visitors are responsible for compliance with all local laws and regulations.
             </p>
@@ -48,7 +48,7 @@ const TermsAndConditions = () => {
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Limitation of Liability</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Limitation of Liability</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               In no event will High Five Properties be liable for any damages, including without limitation direct or indirect, special, incidental, or consequential damages, losses or expenses arising in connection with the Site or use thereof or inability to use by any party, or reliance on the contents of the Site, or in connection with any failure of performance, error, omission, interruption, defect, delay or failure in operation or transmission, computer virus or line or system failure, even if High Five Properties, its representatives, are advised of the possibility of such damages, losses or expense.
             </p>
@@ -58,21 +58,21 @@ const TermsAndConditions = () => {
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Intellectual Property</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Intellectual Property</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               All information submitted to High Five Properties via the Site shall be deemed and remain the property of High Five Properties who shall be free to use, for any purpose, any ideas, concepts, know-how or techniques contained in information a visitor to the Site provides High Five Properties through the Site. High Five Properties shall not be subject to any obligations of confidentiality or privacy regarding submitted information except as agreed by High Five Properties, as specifically set forth elsewhere on the Site in its Privacy Policy, or as otherwise specifically agreed or required by law.
             </p>
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Third Party Links</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Third Party Links</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website. We have no responsibility for the content of the linked website.
             </p>
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Forward-Looking Statements</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Forward-Looking Statements</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               This website includes statements that are, or may be deemed to be, “forward looking statements”. These forward looking statements can be identified by the use of forward looking terminology, including the terms “believes”, “estimates”, “anticipates”, “expects”, “intends”, “may”, “will” or “should” or, in each case, their negative or other variations or comparable terminology. These forward looking statements include all matters that are not historical facts. They may appear in a number of places throughout this website and include statements regarding the intentions, beliefs or current expectations of High Five Properties concerning, among other things, the investment performance, results of operations, financial condition, liquidity and prospects of High Five Properties. By their nature, forward looking statements involve risks and uncertainties because they relate to events and depend on circumstances that may or may not occur in the future. Forward looking statements are not guarantees of future performance. Actual investment performance, results of operations, return on investments, timely completion of development or projects may differ materially from the impression created by the forward looking statements contained on this website.
             </p>
@@ -82,14 +82,14 @@ const TermsAndConditions = () => {
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Copyright and Trademarks</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Copyright and Trademarks</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               Unless otherwise expressly noted, all content included on this website or mobile app, including, without limitation, images, logos, articles and other materials, are protected by copyrights, and/or other intellectual property owned, controlled or licensed by High Five Properties. All trademarks and logos displayed on this website are the property of their respective owners, who may or may not be affiliated with High Five Properties. Visitors are responsible for complying with all applicable copyright, trademark and other applicable laws. We allow visitors to make copies of this website as necessary incidental acts during their viewing of the website. Visitors can print, for their personal use, as much of the website as is reasonable for private purposes. All other use is strictly prohibited.
             </p>
           </section>
 
           <section className="section mb-12">
-            <h2 className="text-2xl font-semibold text-yellow-500 mb-4 custom-font">Contact</h2>
+            <h2 className="text-2xl font-semibold text-yellow-700 mb-4 custom-font">Contact</h2>
             <p className="text-base text-white leading-relaxed font-mono">
               Should you have any objections to the content posted on this website, you are requested to write to info@hi5properties.com with the subject: ‘content request clarification’ along with your name, address and telephone/mobile number, and we will respond as soon as possible.
             </p>

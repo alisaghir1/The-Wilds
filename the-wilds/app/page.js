@@ -24,86 +24,88 @@ import {
   FaMapMarkedAlt,
 } from "react-icons/fa";
 
+import Swipper from './components/Swipper.jsx'
+
 const amenities = [
   {
     title: "Beach Access",
     desc: "Take a stroll on the private beach to relax and unwind.",
-    icon: <FaSwimmer className="text-yellow-500 text-3xl" />,
+    icon: <FaSwimmer className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Cycling Trails",
     desc: "A low-impact sport that gives your cardiovascular system an effective workout.",
-    icon: <FaBiking className="text-yellow-500 text-3xl" />,
+    icon: <FaBiking className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Dining Outlets",
     desc: "Where good food is served to people, often in a formal way.",
-    icon: <FaUtensils className="text-yellow-500 text-3xl" />,
+    icon: <FaUtensils className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Fitness Centre",
     desc: "Routine exercise helps you to change your overall lifestyle.",
-    icon: <IoMdFitness className="text-yellow-500 text-3xl" />,
+    icon: <IoMdFitness className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Gymnasium",
     desc: "For those who want to remain fit and lead a healthy lifestyle.",
-    icon: <FaDumbbell className="text-yellow-500 text-3xl" />,
+    icon: <FaDumbbell className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Health Care Centre",
     desc: "World-class health care centers with top-notch facilities.",
-    icon: <FaHeartbeat className="text-yellow-500 text-3xl" />,
+    icon: <FaHeartbeat className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Housekeeping",
     desc: "Experience top-tier housekeeping services for a clean and comfortable home.",
-    icon: <FaBroom className="text-yellow-500 text-3xl" />,
+    icon: <FaBroom className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Indoor Games",
     desc: "A very small play area, usually limited to a single tabletop.",
-    icon: <FaGamepad className="text-yellow-500 text-3xl" />,
+    icon: <FaGamepad className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Infinity Pool",
     desc: "A swimming pool where the water flows over one or more edges.",
-    icon: <FaInfinity className="text-yellow-500 text-3xl" />,
+    icon: <FaInfinity className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Jogging Trails",
     desc: "It improves your cardiovascular fitness and decreases your risk of heart attack.",
-    icon: <FaRunning className="text-yellow-500 text-3xl" />,
+    icon: <FaRunning className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Kids Play Area",
     desc: "An area used for outdoor play or recreation, especially by children.",
-    icon: <FaChild className="text-yellow-500 text-3xl" />,
+    icon: <FaChild className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Marina & Yacht Club",
     desc: "Luxury berthing where you can dock your yacht.",
-    icon: <FaShip className="text-yellow-500 text-3xl" />,
+    icon: <FaShip className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Parks and Leisure Areas",
     desc: "Access to parks & recreation facilities leads to healthy lifestyles.",
-    icon: <FaTree className="text-yellow-500 text-3xl" />,
+    icon: <FaTree className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Restaurants",
     desc: "Treat your inner foodie by serving authentic flavors.",
-    icon: <FaConciergeBell className="text-yellow-500 text-3xl" />,
+    icon: <FaConciergeBell className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Supermarket",
     desc: "A self-service shop offering a wide variety of food & household products.",
-    icon: <FaShoppingCart className="text-yellow-500 text-3xl" />,
+    icon: <FaShoppingCart className="text-yellow-700 text-3xl" />,
   },
   {
     title: "Swimming Pool",
     desc: "The best place to head when you want to relax and rejuvenate.",
-    icon: <MdPool className="text-yellow-500 text-3xl" />,
+    icon: <MdPool className="text-yellow-700 text-3xl" />,
   },
 ];
 
@@ -160,7 +162,7 @@ export default function Home() {
               By Aldar Properties | DubaiLand
             </p>
             <p className="inline-flex items-center mt-2">
-              <span className="bg-yellow-500 text-white px-3 py-1 rounded-l">
+              <span className="bg-yellow-700 text-white px-3 py-1 rounded-l">
                 Status
               </span>
               <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-r">
@@ -176,68 +178,68 @@ export default function Home() {
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {/* Starting Price */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">
               Property Type:
             </h3>
             <p className=" text-md font-bold">Villa</p>
           </div>
 
           {/* Down Payment (Flex Row) */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">
               Unit type:
             </h3>
             <p className=" text-md font-bold">3 to 5 Bedroom</p>
           </div>
 
           {/* Payment Plan */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">Size:</h3>
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">Size:</h3>
             <p className=" text-md font-bold">2,972 to 4,448 Sq Ft.</p>
           </div>
 
           {/* Handover */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">
               Property Type:
             </h3>
             <p className=" text-md font-bold">Apartment</p>
           </div>
 
           {/* Villas Info */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">
               Unit type:
             </h3>
             <p className=" text-md font-bold">4 & 5 Bedroom</p>
           </div>
 
           {/* Apartments Info */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">Size:</h3>
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">Size:</h3>
             <p className=" text-md font-bold">5,434 to 6,678 Sq Ft.</p>
           </div>
 
           {/* Location */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">
               Down Payment:
             </h3>
             <p className=" text-md font-bold">10%</p>
           </div>
 
           {/* Developer */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">
               Payment Plan:
             </h3>
             <p className=" text-md font-bold">65/35</p>
           </div>
 
           {/* Down Payment (Flex Row) */}
-          <div className="py-6 border-b border-b-yellow-500 flex justify-between items-center">
-            <h3 className="text-md font-semibold text-yellow-500">Handover:</h3>
+          <div className="py-6 border-b border-b-yellow-700 flex justify-between items-center">
+            <h3 className="text-md font-semibold text-yellow-700">Handover:</h3>
             <p className=" text-md font-bold">Q2 - 2029</p>
           </div>
         </div>
@@ -326,7 +328,7 @@ export default function Home() {
           {/* Right Side - Location Items */}
           <div className="w-full md:w-1/2 flex flex-col gap-6">
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-              <FaPlaneDeparture className="text-yellow-500 text-3xl" />
+              <FaPlaneDeparture className="text-yellow-700 text-3xl" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
                   Dubai International Airport
@@ -336,7 +338,7 @@ export default function Home() {
             </div>
 
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-              <FaLandmark className="text-yellow-500 text-3xl" />
+              <FaLandmark className="text-yellow-700 text-3xl" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
                   Falconcity of Wonders
@@ -346,7 +348,7 @@ export default function Home() {
             </div>
 
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-              <FaMapMarkedAlt className="text-yellow-500 text-3xl" />
+              <FaMapMarkedAlt className="text-yellow-700 text-3xl" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
                   IMG World of Adventure
@@ -356,7 +358,7 @@ export default function Home() {
             </div>
 
             <div className="p-4 border border-gray-300 rounded-lg flex items-center gap-4">
-              <FaUniversity className="text-yellow-500 text-3xl" />
+              <FaUniversity className="text-yellow-700 text-3xl" />
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">
                   Zayed University
@@ -369,7 +371,7 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-2xl font-bold text-gray-900 mb-8">
           FLOOR PLAN
         </h2>
 
@@ -403,6 +405,13 @@ export default function Home() {
             </tbody>
           </table>
         </div>
+      </section>
+
+      <section className="container mx-auto my-16 border border-gray-500 xl:px-20 pt-5 pb-10 px-5 rounded-lg">
+        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+          Image Gallery
+        </h2>
+        <Swipper />
       </section>
     </div>
   );

@@ -11,7 +11,7 @@ const Footer= () => {
           <a className="block md:mx-auto mb-5 max-w-max" href="#">
             <Image width={300} src={logo} alt="logo" className="p-5" />
           </a>
-          <Link href='/terms-of-use' className="text-white text-xl hover:text-yellow-500 transition 300 ease-in-out">Terms of use</Link>
+          <Link href='/terms-of-use' className="text-white text-xl hover:text-yellow-700 transition 300 ease-in-out">Terms of use</Link>
         </div>
       </div>
       <div className="border-b border-gray-100"></div>
