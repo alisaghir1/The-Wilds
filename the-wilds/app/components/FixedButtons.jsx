@@ -91,13 +91,6 @@ const FixedButtons = () => {
         >
           Contact Us
         </button>
-        <a
-          href="/TheWilds.pdf"
-          download
-          className="bg-yellow-700 flex justify-center items-center gap-2 hover:bg-white hover:text-yellow-700 transition ease-in-out duration-200 text-white px-4 py-2 rounded-md shadow-lg text-center"
-        >
-          <SiAdobeacrobatreader className="w-5 h-6" /> Download Brochure
-        </a>
       </div>
 
       {/* Mobile Version - Full Width at Bottom */}
@@ -108,14 +101,6 @@ const FixedButtons = () => {
         >
           Contact Us
         </button>
-        <a
-          href="/brochure.pdf"
-          download
-          className="bg-transparen flex justify-center items-center gap-2  hover:text-yellow-700 transition ease-in-out duration-200 text-white px-4 py-2 rounded-md shadow-lg text-center"
-        >
-          <SiAdobeacrobatreader className="w-5 h-6" />
-          Download Brochure
-        </a>
       </div>
 
       {/* Contact Form Modal */}
